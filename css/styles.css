@@ -1,0 +1,100 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: var(--slate);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+a {
+    color: currentColor;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 4%;
+}
+
+button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+
+.logo-accent {
+    color: var(--iris);
+}
+
+/* #header */
+.header {}
+
+.nav {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {}
+
+.contact-info {}
+
+.contact-list {}
+
+.contact-item {}
+
+.contact-link {}
