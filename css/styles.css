@@ -20,8 +20,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--slate);
+    background-color: var(--white);
 }
 
 h1 {
@@ -40,7 +41,6 @@ h2 {
 h3 {
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
     color: var(--navy-blue)
 }
 
@@ -79,19 +79,34 @@ ul {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: var(--iris);
     text-decoration: none;
 }
 
 .logo-accent {
-    color: var(--iris);
+    color: var(--navy-blue);
+}
+
+.section-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
 }
 
 /* #header */
 .nav-link {
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
     color: var(--navy-blue);
     text-decoration: none;
+}
+
+.contact-info {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .contact-link {
@@ -105,20 +120,25 @@ ul {
 }
 
 .hero-title {
-    color: var(--white)
+    color: var(--white);
+    line-height: 1.07;
+    text-align: center;
 }
 
 .btn-order {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.btn-order:hover, button:focus {
+    background-color: var(--ocean);
 }
 
 /* #principles */
-
-.section-title {}
-
 .principles > h2 {
-    display: none;
+    visibility: hidden;
 }
 
 .principle-description {
@@ -126,12 +146,25 @@ ul {
 }
 
 /* #team */
+.team {
+    background-color: var(--cloud);
+}
+
+.team-list {
+    background-color: var(--white);
+}
+
 .team-name {
     text-align: center;
 }
 
 .team-role {
     text-align: center;
+}
+
+/* #portfolio */
+.portfolio-image {
+    width: 360;
 }
 
 /* #footer */
@@ -141,5 +174,8 @@ ul {
 }
 
 .logo-footer {
+    color: var(--iris);
+}
+.logo-footer-accent {
     color: var(--cloud);
 }
