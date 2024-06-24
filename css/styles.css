@@ -28,19 +28,20 @@ body {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 60px;
 }
 
 h2 {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
     color: var(--navy-blue)
 }
 
@@ -105,13 +106,14 @@ ul {
 
 .contact-info {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 .contact-link {
     font-weight: 400;
     text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* #hero */
@@ -150,7 +152,7 @@ ul {
     background-color: var(--cloud);
 }
 
-.team-list {
+.team-member {
     background-color: var(--white);
 }
 
@@ -163,9 +165,6 @@ ul {
 }
 
 /* #portfolio */
-.portfolio-image {
-    width: 360;
-}
 
 /* #footer */
 .footer {
